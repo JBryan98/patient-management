@@ -1,0 +1,5 @@
+### DELETE Patient Record
+# This request deletes a patient record with the specified ID.
+DELETE http://localhost:8090/patients/123e4567-e89b-12d3-a456-426614174000
+
+###

@@ -1,0 +1,4 @@
+### GET request to validate jwt token
+GET http://localhost:4040/auth/validate
+Authorization: Bearer {{token}}
+###

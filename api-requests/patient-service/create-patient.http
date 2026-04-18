@@ -1,0 +1,11 @@
+POST http://localhost:4040/api/patients
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "John Doe Kafka Test 1234",
+  "email": "kafka_tester_1234@example.com",
+  "address": "123 main street",
+  "dateOfBirth": "1995-09-09",
+  "registeredDate": "2024-11-28"
+}
